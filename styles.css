@@ -45,7 +45,7 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -55,7 +55,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    background-color: rgba(255,255,255,0.2);
+    color: #A8E6CF;
 }
 
 /* Search Styles */
@@ -86,8 +86,10 @@ body {
     color: white;
     cursor: pointer;
     padding: 8px 12px;
-    border-radius: 50%;
+    border-radius: 20px;
     transition: background-color 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .search-btn:hover {
@@ -104,7 +106,7 @@ body {
     background: linear-gradient(135deg, #84CEEB 0%, #5AB9EA 50%, #C1C8E4 100%);
     color: white;
     text-align: center;
-    padding: 80px 20px;
+    padding: 80px 20px 60px;
 }
 
 .hero-content h2 {
@@ -117,7 +119,46 @@ body {
     font-size: 1.2rem;
     opacity: 0.9;
     max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+/* Hero Statistics */
+.hero-stats {
+    margin-top: 40px;
+}
+
+.hero-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+.hero-stat-card {
+    background: rgba(255,255,255,0.15);
+    padding: 20px 10px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: transform 0.3s ease;
+}
+
+.hero-stat-card:hover {
+    transform: translateY(-2px);
+    background: rgba(255,255,255,0.2);
+}
+
+.hero-stat-card h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #1e3a8a;
+}
+
+.hero-stat-card p {
+    font-size: 0.9rem;
+    opacity: 0.9;
 }
 
 /* Container */
@@ -151,8 +192,8 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 30px;
-    max-width: 1400px;
+    gap: 40px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -162,18 +203,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    min-width: 290px;
 }
 
 .central-body {
-    flex: 4;
+    flex: 2.9;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .human-body-img {
-    max-width: 550px;
+    max-width: 600px;
     width: 100%;
     height: auto;
     border-radius: 20px;
@@ -189,10 +231,11 @@ body {
 .system-module {
     background: white;
     border-radius: 12px;
-    padding: 18px;
+    padding: 20px;
     box-shadow: 0 2px 15px rgba(0,0,0,0.08);
     border-left: 4px solid #5680E9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-width: 300px;
 }
 
 .system-module:hover {
@@ -224,11 +267,12 @@ body {
     align-items: center;
     text-decoration: none;
     color: #34495e;
-    padding: 10px 12px;
+    padding: 12px 15px;
     border-radius: 6px;
     transition: all 0.3s ease;
     border: 1px solid transparent;
     background: #f8f9fa;
+    min-width: 280px;
 }
 
 .tissue-item:hover {
@@ -240,45 +284,18 @@ body {
 .tissue-item span:first-child {
     font-weight: 500;
     color: #2c3e50;
+    flex: 1;
 }
 
 .cell-count {
     color: #7f8c8d;
     font-size: 0.9rem;
     font-weight: 400;
+    white-space: nowrap;
+    margin-left: 10px;
 }
 
-/* Stats Section */
-.stats-section {
-    background: linear-gradient(135deg, #8860D0 0%, #5680E9 50%, #84CEEB 100%);
-    color: white;
-    padding: 60px 0;
-}
-
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
-}
-
-.stat-card {
-    text-align: center;
-    background: rgba(255,255,255,0.1);
-    padding: 30px 20px;
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-}
-
-.stat-card h3 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.stat-card p {
-    font-size: 1.1rem;
-    opacity: 0.9;
-}
+/* Old stats section styles removed - moved to hero section */
 
 /* Footer */
 .footer {
@@ -397,12 +414,12 @@ body {
 }
 
 .btn-secondary {
-    background: #95a5a6;
-    color: white;
+    background: #ecf0f1;
+    color: #2c3e50;
 }
 
 .btn-secondary:hover {
-    background: #7f8c8d;
+    background: #d5dbdb;
 }
 
 /* Dataset Table Styles */
@@ -1072,18 +1089,24 @@ body {
     }
     
     .human-body-img {
-        max-width: 350px;
+        max-width: 450px;
+    }
+    
+    .hero-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 600px;
     }
 }
 
 @media (max-width: 768px) {
     .anatomy-layout {
         flex-direction: column;
-        gap: 25px;
+        gap: 20px;
     }
     
     .left-systems,
     .right-systems {
+        min-width: unset;
         order: 2;
     }
     
@@ -1093,27 +1116,43 @@ body {
     }
     
     .human-body-img {
-        max-width: 280px;
+        max-width: 350px;
     }
     
     .system-module {
         padding: 15px;
+        min-width: unset;
     }
     
     .tissue-item {
         flex-direction: column;
         align-items: flex-start;
         gap: 5px;
+        min-width: unset;
     }
     
     .cell-count {
         font-size: 0.8rem;
     }
+    
+    .hero-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .hero-stat-card {
+        padding: 15px 10px;
+    }
+    
+    .hero-stat-card h3 {
+        font-size: 1.6rem;
+        color: #1e3a8a;
+    }
 }
 
 @media (max-width: 480px) {
     .human-body-img {
-        max-width: 220px;
+        max-width: 280px;
     }
     
     .system-module h4 {
@@ -1122,6 +1161,37 @@ body {
     
     .tissue-item {
         padding: 8px 10px;
+    }
+    
+    .hero-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 400px;
+        gap: 10px;
+    }
+    
+    .hero-stat-card {
+        padding: 12px 8px;
+    }
+    
+    .hero-stat-card h3 {
+        font-size: 1.4rem;
+        color: #1e3a8a;
+    }
+    
+    .hero-stat-card p {
+        font-size: 0.8rem;
+    }
+    
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .search-input {
+        width: 150px;
     }
 }
 
