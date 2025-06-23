@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Details - scRNA-seq & ATAC-seq Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>scRNA-seq & ATAC-seq Atlas</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="atlas.html" class="nav-link">Atlas</a></li>
+                    <li>
+                        <div class="search-container">
+                            <input type="text" id="search-input" placeholder="Search datasets..." class="search-input">
+                            <button class="search-btn" onclick="performSearch()">🔍</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Dataset Header -->
+        <section class="dataset-header">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="atlas.html">Atlas</a> / <span id="dataset-name">Dataset Details</span>
+                </div>
+                <h2 id="dataset-title">Loading Dataset...</h2>
+                <div class="dataset-meta">
+                    <span class="meta-item" id="dataset-uberon">UBERON ID: Loading...</span>
+                    <span class="meta-item" id="dataset-type">Type: Loading...</span>
+                    <span class="meta-item" id="dataset-cells">Cells: Loading...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dataset Detail Content -->
+        <div class="detail-container">
+            <div class="detail-layout">
+                <!-- Basic Information Section -->
+                <div class="detail-section basic-info">
+                    <h3>Basic Information</h3>
+                    <div class="info-panel">
+                        <div class="info-group">
+                            <h4>Dataset Overview</h4>
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <span class="info-label">Dataset ID:</span>
+                                    <span class="info-value" id="detail-id">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">UBERON ID:</span>
+                                    <span class="info-value" id="detail-uberon">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Tissue/Organ:</span>
+                                    <span class="info-value" id="detail-tissue">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Species:</span>
+                                    <span class="info-value" id="detail-species">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Disease State:</span>
+                                    <span class="info-value" id="detail-disease">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Data Types:</span>
+                                    <span class="info-value" id="detail-datatypes">-</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-group">
+                            <h4>Cell Statistics</h4>
+                            <div class="stats-grid">
+                                <div class="stat-box">
+                                    <div class="stat-number" id="detail-cell-count">-</div>
+                                    <div class="stat-label">Total Cells</div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-number" id="detail-gene-count">-</div>
+                                    <div class="stat-label">Genes Detected</div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-number" id="detail-sample-count">-</div>
+                                    <div class="stat-label">Samples</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-group">
+                            <h4>Publication & Download</h4>
+                            <div class="publication-info">
+                                <p><strong>Publication:</strong> <span id="detail-publication">-</span></p>
+                                <p><strong>File Size:</strong> <span id="detail-size">-</span></p>
+                                <div class="download-actions">
+                                    <button class="btn btn-primary" id="download-data">
+                                        Download Dataset
+                                    </button>
+                                    <button class="btn btn-secondary" id="download-metadata">
+                                        Download Metadata
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Clustering Section -->
+                <div class="detail-section clustering">
+                    <h3>Clustering & Visualization</h3>
+                    <div class="clustering-panel">
+                        <div class="visualization-container">
+                            <div class="plot-header">
+                                <h4>UMAP Visualization</h4>
+                                <div class="plot-controls">
+                                    <select id="color-by" class="control-select">
+                                        <option value="celltype">Color by Cell Type</option>
+                                        <option value="cluster">Color by Cluster</option>
+                                        <option value="treatment">Color by Treatment</option>
+                                        <option value="phase">Color by Cell Cycle</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="umap-container">
+                                <svg id="umap-plot" width="100%" height="400">
+                                    <!-- UMAP plot will be rendered here -->
+                                    <defs>
+                                        <pattern id="loading-pattern" patternUnits="userSpaceOnUse" width="20" height="20">
+                                            <circle cx="10" cy="10" r="3" fill="#e0e0e0"/>
+                                        </pattern>
+                                    </defs>
+                                    <rect width="100%" height="100%" fill="url(#loading-pattern)" opacity="0.3"/>
+                                    <text x="50%" y="50%" text-anchor="middle" dy="0.3em" fill="#666" font-size="16">
+                                        UMAP Visualization Loading...
+                                    </text>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="cluster-info">
+                            <h4>Cluster Information</h4>
+                            <div class="cluster-list" id="cluster-list">
+                                <div class="cluster-item">
+                                    <div class="cluster-color" style="background-color: #1f77b4;"></div>
+                                    <div class="cluster-details">
+                                        <div class="cluster-name">Cluster 0</div>
+                                        <div class="cluster-type">T Cells</div>
+                                        <div class="cluster-count">2,450 cells</div>
+                                    </div>
+                                </div>
+                                <div class="cluster-item">
+                                    <div class="cluster-color" style="background-color: #ff7f0e;"></div>
+                                    <div class="cluster-details">
+                                        <div class="cluster-name">Cluster 1</div>
+                                        <div class="cluster-type">B Cells</div>
+                                        <div class="cluster-count">1,876 cells</div>
+                                    </div>
+                                </div>
+                                <div class="cluster-item">
+                                    <div class="cluster-color" style="background-color: #2ca02c;"></div>
+                                    <div class="cluster-details">
+                                        <div class="cluster-name">Cluster 2</div>
+                                        <div class="cluster-type">NK Cells</div>
+                                        <div class="cluster-count">1,234 cells</div>
+                                    </div>
+                                </div>
+                                <!-- More clusters will be added dynamically -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Markers Section -->
+                <div class="detail-section markers">
+                    <h3>Cell Type Markers</h3>
+                    <div class="markers-panel">
+                        <div class="markers-header">
+                            <h4>Marker Gene Expression</h4>
+                            <div class="markers-controls">
+                                <select id="marker-cluster" class="control-select">
+                                    <option value="all">All Cell Types</option>
+                                    <option value="0">T Cells</option>
+                                    <option value="1">B Cells</option>
+                                    <option value="2">NK Cells</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="dotplot-container">
+                            <svg id="dotplot" width="100%" height="350">
+                                <!-- Dot plot will be rendered here -->
+                                <rect width="100%" height="100%" fill="#f8f9fa" stroke="#ddd"/>
+                                <text x="50%" y="50%" text-anchor="middle" dy="0.3em" fill="#666" font-size="14">
+                                    Marker Gene Dot Plot Loading...
+                                </text>
+                            </svg>
+                        </div>
+
+                        <div class="marker-genes">
+                            <h4>Top Marker Genes</h4>
+                            <div class="gene-list" id="marker-gene-list">
+                                <div class="gene-item">
+                                    <span class="gene-name">CD3D</span>
+                                    <span class="gene-expression">High in T Cells</span>
+                                    <span class="gene-pvalue">p < 0.001</span>
+                                </div>
+                                <div class="gene-item">
+                                    <span class="gene-name">CD19</span>
+                                    <span class="gene-expression">High in B Cells</span>
+                                    <span class="gene-pvalue">p < 0.001</span>
+                                </div>
+                                <div class="gene-item">
+                                    <span class="gene-name">NCAM1</span>
+                                    <span class="gene-expression">High in NK Cells</span>
+                                    <span class="gene-pvalue">p < 0.001</span>
+                                </div>
+                                <!-- More marker genes will be added dynamically -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-simple">
+                <p>&copy; 2024 scRNA-seq & ATAC-seq Atlas Database. All rights reserved.</p>
+                <p>Contact: <a href="mailto:contact@scrna-atlas.org">contact@scrna-atlas.org</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Dataset detail page specific functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            loadDatasetDetail();
+        });
+
+        function loadDatasetDetail() {
+            // Get dataset ID from URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const datasetId = urlParams.get('id');
+            
+            if (!datasetId) {
+                document.getElementById('dataset-title').textContent = 'Dataset Not Found';
+                return;
+            }
+
+            // Load dataset details (mock data for demo)
+            const mockDataset = {
+                id: datasetId,
+                name: 'Human Brain scRNA-seq Atlas',
+                uberon: 'UBERON:0000955',
+                tissue: 'Brain',
+                species: 'Homo sapiens',
+                disease: 'Normal',
+                dataTypes: ['scRNA-seq', 'ATAC-seq'],
+                cellCount: 125000,
+                geneCount: 18500,
+                sampleCount: 45,
+                publication: 'Nature 2024',
+                fileSize: '2.3GB'
+            };
+
+            updateDatasetDetails(mockDataset);
+        }
+
+        function updateDatasetDetails(dataset) {
+            document.getElementById('dataset-name').textContent = dataset.name;
+            document.getElementById('dataset-title').textContent = dataset.name;
+            document.getElementById('dataset-uberon').textContent = 'UBERON ID: ' + dataset.uberon;
+            document.getElementById('dataset-type').textContent = 'Type: ' + dataset.dataTypes.join(', ');
+            document.getElementById('dataset-cells').textContent = 'Cells: ' + dataset.cellCount.toLocaleString();
+
+            document.getElementById('detail-id').textContent = dataset.id;
+            document.getElementById('detail-uberon').textContent = dataset.uberon;
+            document.getElementById('detail-tissue').textContent = dataset.tissue;
+            document.getElementById('detail-species').textContent = dataset.species;
+            document.getElementById('detail-disease').textContent = dataset.disease;
+            document.getElementById('detail-datatypes').textContent = dataset.dataTypes.join(', ');
+            document.getElementById('detail-cell-count').textContent = dataset.cellCount.toLocaleString();
+            document.getElementById('detail-gene-count').textContent = dataset.geneCount.toLocaleString();
+            document.getElementById('detail-sample-count').textContent = dataset.sampleCount;
+            document.getElementById('detail-publication').textContent = dataset.publication;
+            document.getElementById('detail-size').textContent = dataset.fileSize;
+
+            // Add download functionality
+            document.getElementById('download-data').addEventListener('click', function() {
+                alert('Preparing download for: ' + dataset.name + '\nFile size: ' + dataset.fileSize + '\n\nNote: This is a demo version.');
+            });
+
+            document.getElementById('download-metadata').addEventListener('click', function() {
+                alert('Downloading metadata for: ' + dataset.name);
+            });
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas - scRNA-seq & ATAC-seq Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>scRNA-seq & ATAC-seq Atlas</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="atlas.html" class="nav-link active">Atlas</a></li>
+                    <li>
+                        <div class="search-container">
+                            <input type="text" id="search-input" placeholder="Search datasets..." class="search-input">
+                            <button class="search-btn" onclick="performSearch()">🔍</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="atlas-hero">
+            <div class="container">
+                <h2>Data Atlas Collection</h2>
+                <p>Explore comprehensive single-cell genomics datasets organized by tissue, disease, and cell type</p>
+            </div>
+        </section>
+
+        <div class="atlas-container">
+            <!-- Dataset Controls -->
+            <div class="dataset-controls">
+                <div class="controls-header">
+                    <h3>Dataset Browser</h3>
+                    <div class="dataset-stats">
+                        <span id="dataset-count">Loading datasets...</span>
+                    </div>
+                </div>
+                
+                <!-- Filter Controls -->
+                <div class="filter-controls">
+                    <select id="category-filter" class="filter-select">
+                        <option value="all">All Categories</option>
+                        <option value="tissue">Tissue Atlas</option>
+                        <option value="disease">Disease Atlas</option>
+                        <option value="celltype">Cell Type Atlas</option>
+                    </select>
+                    
+                    <select id="datatype-filter" class="filter-select">
+                        <option value="all">All Data Types</option>
+                        <option value="scRNA-seq">scRNA-seq</option>
+                        <option value="ATAC-seq">ATAC-seq</option>
+                        <option value="multiome">Multi-omics</option>
+                    </select>
+                    
+                    <select id="entries-per-page" class="filter-select">
+                        <option value="10">Show 10 entries</option>
+                        <option value="25">Show 25 entries</option>
+                        <option value="50">Show 50 entries</option>
+                        <option value="100">Show 100 entries</option>
+                    </select>
+                    
+                    <input type="text" id="table-search" placeholder="Search..." class="table-search-input">
+                </div>
+            </div>
+
+            <!-- Dataset Table -->
+            <div class="table-container">
+                <table class="dataset-table" id="dataset-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Technique</th>
+                            <th>Omics</th>
+                            <th>Species</th>
+                            <th>State</th>
+                            <th>Tissue</th>
+                            <th>Description</th>
+                            <th>Source</th>
+                            <th>Publication</th>
+                            <th>Num. Cell</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dataset-table-body">
+                        <!-- Table rows will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination-container">
+                <div class="pagination-info">
+                    <span id="pagination-info">Showing 1 to 10 of 0 entries</span>
+                </div>
+                <div class="pagination-controls">
+                    <button id="prev-page" class="pagination-btn" disabled>Previous</button>
+                    <div class="page-numbers" id="page-numbers"></div>
+                    <button id="next-page" class="pagination-btn">Next</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-simple">
+                <p>&copy; 2024 scRNA-seq & ATAC-seq Atlas Database. All rights reserved.</p>
+                <p>Contact: <a href="mailto:contact@scrna-atlas.org">contact@scrna-atlas.org</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

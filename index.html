@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scRNA-seq & ATAC-seq Atlas Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>scRNA-seq & ATAC-seq Atlas</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="atlas.html" class="nav-link">Atlas</a></li>
+                    <li>
+                        <div class="search-container">
+                            <input type="text" id="search-input" placeholder="Search datasets..." class="search-input">
+                            <button class="search-btn" onclick="performSearch()">🔍</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Human Single Cell Atlas Database</h2>
+                    <p>Comprehensive collection of single-cell RNA-seq and ATAC-seq datasets across human tissues and organs</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Anatomy Section -->
+        <section class="anatomy-section">
+            <div class="container">
+                <h3>Explore Human Body Systems</h3>
+                <p>Click on body systems to explore available datasets</p>
+                
+                <div class="anatomy-layout">
+                    <!-- Left System Modules -->
+                    <div class="left-systems">
+                        <!-- Nervous System -->
+                        <div class="system-module">
+                            <h4>Nervous System</h4>
+                            <div class="tissue-items">
+                                <a href="atlas.html#tissue-brain" class="tissue-item tissue-link">
+                                    <span>Brain</span>
+                                    <span class="cell-count">125,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-cerebral-cortex" class="tissue-item tissue-link">
+                                    <span>Cerebral Cortex</span>
+                                    <span class="cell-count">89,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-cerebellum" class="tissue-item tissue-link">
+                                    <span>Cerebellum</span>
+                                    <span class="cell-count">65,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-pons" class="tissue-item tissue-link">
+                                    <span>Pons</span>
+                                    <span class="cell-count">45,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-midbrain" class="tissue-item tissue-link">
+                                    <span>Midbrain</span>
+                                    <span class="cell-count">38,000 cells</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Cardiovascular System -->
+                        <div class="system-module">
+                            <h4>Cardiovascular System</h4>
+                            <div class="tissue-items">
+                                <a href="atlas.html#tissue-heart" class="tissue-item tissue-link">
+                                    <span>Heart</span>
+                                    <span class="cell-count">87,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-left-ventricle" class="tissue-item tissue-link">
+                                    <span>Left Ventricle</span>
+                                    <span class="cell-count">52,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-right-ventricle" class="tissue-item tissue-link">
+                                    <span>Right Ventricle</span>
+                                    <span class="cell-count">48,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-aorta" class="tissue-item tissue-link">
+                                    <span>Ascending Aorta</span>
+                                    <span class="cell-count">25,000 cells</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Respiratory System -->
+                        <div class="system-module">
+                            <h4>Respiratory System</h4>
+                            <div class="tissue-items">
+                                <a href="atlas.html#tissue-lung" class="tissue-item tissue-link">
+                                    <span>Lung</span>
+                                    <span class="cell-count">142,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-left-lung" class="tissue-item tissue-link">
+                                    <span>Left Lung</span>
+                                    <span class="cell-count">75,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-upper-lung-lobe" class="tissue-item tissue-link">
+                                    <span>Upper Lung Lobe</span>
+                                    <span class="cell-count">68,000 cells</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Digestive System -->
+                        <div class="system-module">
+                            <h4>Digestive System</h4>
+                            <div class="tissue-items">
+                                <a href="atlas.html#tissue-stomach" class="tissue-item tissue-link">
+                                    <span>Stomach</span>
+                                    <span class="cell-count">76,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-intestine" class="tissue-item tissue-link">
+                                    <span>Intestine</span>
+                                    <span class="cell-count">98,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-colon" class="tissue-item tissue-link">
+                                    <span>Colon</span>
+                                    <span class="cell-count">85,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-esophagus" class="tissue-item tissue-link">
+                                    <span>Esophagus</span>
+                                    <span class="cell-count">55,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-liver" class="tissue-item tissue-link">
+                                    <span>Liver</span>
+                                    <span class="cell-count">95,000 cells</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Central Human Body Image -->
+                    <div class="central-body">
+                        <img src="home_humanBody.png" alt="Human Body Anatomy" class="human-body-img">
+                    </div>
+
+                    <!-- Right System Modules -->
+                    <div class="right-systems">
+                        <!-- Endocrine System -->
+                        <div class="system-module">
+                            <h4>Endocrine System</h4>
+                            <div class="tissue-items">
+                                <a href="atlas.html#tissue-pancreas" class="tissue-item tissue-link">
+                                    <span>Pancreas</span>
+                                    <span class="cell-count">72,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-islet" class="tissue-item tissue-link">
+                                    <span>Islet of Langerhans</span>
+                                    <span class="cell-count">42,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-thyroid" class="tissue-item tissue-link">
+                                    <span>Thyroid Gland</span>
+                                    <span class="cell-count">28,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-adrenal" class="tissue-item tissue-link">
+                                    <span>Adrenal Gland</span>
+                                    <span class="cell-count">35,000 cells</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Reproductive System -->
+                        <div class="system-module">
+                            <h4>Reproductive System</h4>
+                            <div class="tissue-items">
+                                <a href="atlas.html#tissue-ovary" class="tissue-item tissue-link">
+                                    <span>Ovary</span>
+                                    <span class="cell-count">58,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-uterus" class="tissue-item tissue-link">
+                                    <span>Uterus</span>
+                                    <span class="cell-count">67,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-fallopian-tube" class="tissue-item tissue-link">
+                                    <span>Fallopian Tube</span>
+                                    <span class="cell-count">32,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-placenta" class="tissue-item tissue-link">
+                                    <span>Placenta</span>
+                                    <span class="cell-count">124,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-breast" class="tissue-item tissue-link">
+                                    <span>Breast Epithelium</span>
+                                    <span class="cell-count">45,000 cells</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Urinary System -->
+                        <div class="system-module">
+                            <h4>Urinary System</h4>
+                            <div class="tissue-items">
+                                <a href="atlas.html#tissue-kidney" class="tissue-item tissue-link">
+                                    <span>Kidney</span>
+                                    <span class="cell-count">112,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-ureter" class="tissue-item tissue-link">
+                                    <span>Ureter</span>
+                                    <span class="cell-count">18,000 cells</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Special Senses & Others -->
+                        <div class="system-module">
+                            <h4>Special Senses & Others</h4>
+                            <div class="tissue-items">
+                                <a href="atlas.html#tissue-eye" class="tissue-item tissue-link">
+                                    <span>Eye</span>
+                                    <span class="cell-count">78,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-retina" class="tissue-item tissue-link">
+                                    <span>Retina</span>
+                                    <span class="cell-count">156,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-skin" class="tissue-item tissue-link">
+                                    <span>Skin</span>
+                                    <span class="cell-count">89,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-muscle" class="tissue-item tissue-link">
+                                    <span>Muscle</span>
+                                    <span class="cell-count">93,000 cells</span>
+                                </a>
+                                <a href="atlas.html#tissue-bone-marrow" class="tissue-item tissue-link">
+                                    <span>Bone Marrow</span>
+                                    <span class="cell-count">168,000 cells</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>2.5M+</h3>
+                        <p>Single Cells Analyzed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>85+</h3>
+                        <p>Tissue Types</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>150+</h3>
+                        <p>Datasets Available</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>20+</h3>
+                        <p>Cell Types Characterized</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-simple">
+                <p>&copy; 2024 scRNA-seq & ATAC-seq Atlas Database. All rights reserved.</p>
+                <p>Contact: <a href="mailto:contact@scrna-atlas.org">contact@scrna-atlas.org</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
