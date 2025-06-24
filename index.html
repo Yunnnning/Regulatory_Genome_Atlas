@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>scRNA-seq & ATAC-seq Atlas Database</title>
+    <title>Regulatory Genome Atlas Database</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -13,14 +13,15 @@
         <nav class="nav">
             <div class="nav-container">
                 <div class="logo">
-                    <h1>scRNA-seq & ATAC-seq Atlas</h1>
+                    <h1>Regulatory Genome Atlas</h1>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="nav-link active">Home</a></li>
                     <li><a href="atlas.html" class="nav-link">Atlas</a></li>
+                    <li><a href="cell-type.html" class="nav-link">Cell Type</a></li>
                     <li>
                         <div class="search-container">
-                            <input type="text" id="search-input" placeholder="Search datasets..." class="search-input">
+                            <input type="text" id="search-input" placeholder="Tissue, Cell Type, or Disease..." class="search-input">
                             <button class="search-btn" onclick="performSearch()">Search</button>
                         </div>
                     </li>
@@ -34,26 +35,26 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h2>Human Single Cell Atlas Database</h2>
-                    <p>Comprehensive collection of single-cell RNA-seq and ATAC-seq datasets across human tissues and organs</p>
+                    <h2>Welcome to Regulatory Genome Atlas</h2>
+                    <p>Comprehensive collection of single-cell RNA-seq and ATAC-seq datasets across human tissues and diseases</p>
                     
-                    <!-- Statistics moved from bottom -->
+                    <!-- Statistics boxes -->
                     <div class="hero-stats">
                         <div class="hero-stats-grid">
                             <div class="hero-stat-card">
-                                <h3>2.5M+</h3>
+                                <h3>8.5M+</h3>
                                 <p>Single Cells Analyzed</p>
                             </div>
                             <div class="hero-stat-card">
-                                <h3>85+</h3>
+                                <h3>90</h3>
                                 <p>Tissue Types</p>
                             </div>
                             <div class="hero-stat-card">
-                                <h3>150+</h3>
+                                <h3>25+</h3>
                                 <p>Datasets Available</p>
                             </div>
                             <div class="hero-stat-card">
-                                <h3>20+</h3>
+                                <h3>750+</h3>
                                 <p>Cell Types Characterized</p>
                             </div>
                         </div>
@@ -65,8 +66,8 @@
         <!-- Anatomy Section -->
         <section class="anatomy-section">
             <div class="container">
-                <h3>Explore Human Body Systems</h3>
-                <p>Click on body systems to explore available datasets</p>
+                <h3>Explore Human Regulatory Genome Atlas</h3>
+                <p>Click on tissues to have access to available datasets</p>
                 
                 <div class="anatomy-layout">
                     <!-- Left System Modules -->
@@ -170,7 +171,7 @@
 
                     <!-- Central Human Body Image -->
                     <div class="central-body">
-                        <img src="assets/images/home_humanBody.png" alt="Human Body Anatomy" class="human-body-img">
+                        <img src="assets/images/home_HumanAnatomy.png" alt="Human Body Anatomy" class="human-body-img">
                     </div>
 
                     <!-- Right System Modules -->
@@ -240,9 +241,9 @@
                             </div>
                         </div>
 
-                        <!-- Special Senses & Others -->
+                        <!-- Others -->
                         <div class="system-module">
-                            <h4>Special Senses & Others</h4>
+                            <h4>Others</h4>
                             <div class="tissue-items">
                                 <a href="atlas.html#tissue-eye" class="tissue-item tissue-link">
                                     <span>Eye</span>

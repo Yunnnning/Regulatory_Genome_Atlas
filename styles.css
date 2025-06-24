@@ -24,7 +24,7 @@ body {
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +72,7 @@ body {
     background: transparent;
     color: white;
     padding: 8px 15px;
-    width: 200px;
+    width: 225px;
     outline: none;
 }
 
@@ -103,22 +103,22 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #84CEEB 0%, #5AB9EA 50%, #C1C8E4 100%);
+    background: linear-gradient(135deg, #84CEEB 0%, #68a6e8 40%, #cdc9ed 100%);
     color: white;
     text-align: center;
     padding: 80px 20px 60px;
 }
 
 .hero-content h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 20px;
     font-weight: 700;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     opacity: 0.9;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto 40px;
 }
 
@@ -130,8 +130,8 @@ body {
 .hero-stats-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    max-width: 900px;
+    gap: 20px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -157,7 +157,7 @@ body {
 }
 
 .hero-stat-card p {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     opacity: 0.9;
 }
 
@@ -185,7 +185,7 @@ body {
     text-align: center;
     color: #7f8c8d;
     margin-bottom: 40px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .anatomy-layout {
@@ -203,7 +203,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    min-width: 290px;
+    min-width: 300px;
 }
 
 .central-body {
@@ -211,7 +211,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 .human-body-img {
@@ -219,19 +219,12 @@ body {
     width: 100%;
     height: auto;
     border-radius: 20px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.human-body-img:hover {
-    transform: scale(1.02);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.2);
 }
 
 .system-module {
     background: white;
     border-radius: 12px;
-    padding: 20px;
+    padding: 30px 15px;
     box-shadow: 0 2px 15px rgba(0,0,0,0.08);
     border-left: 4px solid #5680E9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -244,7 +237,7 @@ body {
 }
 
 .system-module h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background: linear-gradient(135deg, #5680E9 0%, #8860D0 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -267,12 +260,12 @@ body {
     align-items: center;
     text-decoration: none;
     color: #34495e;
-    padding: 12px 15px;
+    padding: 12px 12px;
     border-radius: 6px;
     transition: all 0.3s ease;
     border: 1px solid transparent;
     background: #f8f9fa;
-    min-width: 280px;
+    min-width: 260px;
 }
 
 .tissue-item:hover {
@@ -295,7 +288,6 @@ body {
     margin-left: 10px;
 }
 
-/* Old stats section styles removed - moved to hero section */
 
 /* Footer */
 .footer {
@@ -313,14 +305,19 @@ body {
 }
 
 .atlas-hero {
-    background: linear-gradient(135deg, #5AB9EA 0%, #84CEEB 50%, #C1C8E4 100%);
+    background: linear-gradient(135deg, #64c2f1 0%, #65a5ea 50%, #cdc9ed 100%);
     color: white;
     text-align: center;
     padding: 60px 20px;
 }
 
 .atlas-hero h2 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+}
+
+.atlas-hero p {
+    font-size: 1.4rem;
     margin-bottom: 15px;
 }
 
@@ -693,7 +690,7 @@ body {
 
 /* Dataset Detail Page Styles */
 .dataset-header {
-    background: linear-gradient(135deg, #5680E9 0%, #8860D0 50%, #C1C8E4 100%);
+    background: linear-gradient(135deg, #6d91ec 0%, #8060d0 40%, #b7b1ee 100%);
     color: white;
     padding: 40px 0;
 }
@@ -1250,4 +1247,330 @@ body {
 .footer-simple a:hover {
     color: #2980b9;
     text-decoration: underline;
+}
+
+/* Cell Type Page Styles */
+.celltype-hero {
+    background: linear-gradient(135deg, #6d91ec 0%, #8060d0 40%, #b7b1ee 100%);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.celltype-hero h2 {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.celltype-hero p {
+    font-size: 1.4rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.celltype-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+
+/* Section Toggle */
+.section-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+.toggle-btn {
+    padding: 12px 24px;
+    border: 2px solid #667eea;
+    background: white;
+    color: #667eea;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.0rem;
+}
+
+.toggle-btn.active,
+.toggle-btn:hover {
+    background: #667eea;
+    color: white;
+}
+
+.section-content {
+    display: block;
+}
+
+.section-content.hidden {
+    display: none;
+}
+
+/* Cell Type Controls */
+.celltype-controls {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+/* Cell Type Table */
+.celltype-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.celltype-table th {
+    background: #f8f9fa;
+    color: #495057;
+    font-weight: 500;
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+    white-space: nowrap;
+}
+
+.celltype-table th:nth-child(4) {
+    /* Markers column - give more width */
+    width: 25%;
+}
+
+.celltype-table th:nth-child(1) {
+    /* Cell Type column */
+    width: 20%;
+}
+
+.celltype-table th:nth-child(2) {
+    /* Aliases column */
+    width: 25%;
+}
+
+.celltype-table th:nth-child(3) {
+    /* Major Type Category column */
+    width: 30%;
+}
+
+.celltype-table td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle;
+}
+
+.celltype-table tbody tr {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.celltype-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.celltype-table tbody tr:nth-child(even) {
+    background-color: #fefefe;
+}
+
+.celltype-table tbody tr:nth-child(even):hover {
+    background-color: #f8f9fa;
+}
+
+.celltype-name {
+    font-weight: 600;
+    color: #495057;
+    font-size: 0.9rem;
+}
+
+.celltype-aliases {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 0.85rem;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.celltype-major {
+    font-weight: 500;
+    color: #495057;
+}
+
+.marker-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    max-width: 100%;
+}
+
+.marker-tag {
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Hierarchy Section */
+.hierarchy-controls {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+.view-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.view-btn {
+    padding: 8px 16px;
+    border: 1px solid #667eea;
+    background: white;
+    color: #667eea;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-btn.active,
+.view-btn:hover {
+    background: #667eea;
+    color: white;
+}
+
+.hierarchy-filters {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Visualization Container */
+.visualization-container {
+    display: flex;
+    gap: 30px;
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.hierarchy-viz {
+    flex: 1;
+    min-height: 600px;
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hierarchy-info {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.legend-panel,
+.selected-info {
+    background: #f8f9ff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.legend-panel h4,
+.selected-info h4 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.selected-info h5 {
+    color: #667eea;
+    margin-bottom: 10px;
+}
+
+.selected-info p {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Responsive Design for Cell Type Page */
+@media (max-width: 1200px) {
+    .visualization-container {
+        flex-direction: column;
+    }
+    
+    .hierarchy-info {
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .legend-panel,
+    .selected-info {
+        flex: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-toggle {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .toggle-btn {
+        width: 200px;
+        text-align: center;
+    }
+    
+    .hierarchy-filters {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .view-controls {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .hierarchy-info {
+        flex-direction: column;
+    }
+    
+    .marker-tags {
+        justify-content: flex-start;
+    }
+    
+    .celltype-table {
+        font-size: 0.9rem;
+    }
+    
+    .celltype-table th,
+    .celltype-table td {
+        padding: 10px 8px;
+    }
 } 

@@ -1,0 +1,770 @@
+cell type	cell_type_catelog	major_type_catelog
+Adipocyte	Adipocyte	Adipocyte
+adipocyte	Adipocyte	Adipocyte
+fibroadipogenic progenitor cell	Fibroadipogenic progenitor cell	Adipocyte progenitor
+Fetal Adrenal Cortical Cell	Fetal adrenal cortical cell	Adrenal cortical cell
+Transitional Zone Cortical Cell	Transitional zone cortical cell	Adrenal cortical cell
+zona fasciculata cell	Zona fasciculata cell	Adrenal cortical cell
+Zona Fasciculata Cortical Cell	Zona fasciculata cortical cell	Adrenal cortical cell
+zona glomerulosa cell	Zona glomerulosa cell	Adrenal cortical cell
+Zona Glomerulosa Cortical Cell	Zona glomerulosa cortical cell	Adrenal cortical cell
+zona reticularis cell	Zona reticularis cell	Adrenal cortical cell
+amacrine cell	Amacrine cell	Amacrine cell
+AS	Astrocyte	Astrocyte
+ASCT_1	Astrocyte	Astrocyte
+ASCT_2	Astrocyte	Astrocyte
+ASCT_3	Astrocyte	Astrocyte
+ASC	Astrocyte	Astrocyte
+astrocyte	Astrocyte	Astrocyte
+Astrocyte 2	Astrocyte	Astrocyte
+astrocytes	Astrocyte	Astrocyte
+Astrocyte 1	Astrocyte	Astrocyte
+ASCNT_2	Astrocyte non-telencephalon	Astrocyte
+ASCNT_1	Astrocyte non-telencephalon	Astrocyte
+ASCNT_3	Astrocyte non-telencephalon	Astrocyte
+Fetal Astrocyte 1	Fetal astrocyte	Astrocyte
+Fetal Astrocyte 3	Fetal astrocyte	Astrocyte
+Fetal Astrocyte 2	Fetal astrocyte	Astrocyte
+Fetal Astrocyte 4	Fetal astrocyte	Astrocyte
+Fetal Astrocyte 5	Fetal astrocyte	Astrocyte
+Astrocyte-Fibrous	Fibrous astrocyte	Astrocyte
+Astrocyte-Immature	Immature astrocyte	Astrocyte
+Astrocyte-Protoplasmic	Protoplasmic astrocyte	Astrocyte
+35-B cell	B cell	B cell
+B	B cell	B cell
+Bcell	B cell	B cell
+17_B	B cell	B cell
+B cell	B cell	B cell
+28-B cell	B cell	B cell
+B cells	B cell	B cell
+B Proliferating	Cycling B cell	B cell
+Fetal B Lymphocyte 2 (CXCR5+)	Fetal B lymphocyte CXCR5+	B cell
+Fetal B Lymphocyte 3 (NPY+)	Fetal B lymphocyte NPY+	B cell
+Fetal B Lymphocyte 1 (SPIB+)	Fetal B lymphocyte SPIB+	B cell
+Memory B Cell	Memory B cell	B cell
+B Memory	Memory B cell	B cell
+Memory B	Memory B cell	B cell
+B Naive	Naive B cell	B cell
+Naive B	Naive B cell	B cell
+Plasma Cell	Plasma cell	B cell
+Plasma	Plasma cell	B cell
+Plasma cells	Plasma cell	B cell
+18_Plasma	Plasma cell	B cell
+plasma cell	Plasma cell	B cell
+Plasmablast	Plasmablast	B cell
+16_Pre.B	Pre-B cell	B cell
+pro/pre-B	Pro/pre-B cell	B cell
+OFF-bipolar cell	OFF-bipolar cell	Bipolar cell
+ON-bipolar cell	ON-bipolar cell	Bipolar cell
+rod bipolar cell	Rod bipolar cell	Bipolar cell
+Atrial Cardiomyocyte	Atrial cardiomyocyte	Cardiomyocyte
+Cardiomyocyte	Cardiomyocyte	Cardiomyocyte
+cardiomyocyte	Cardiomyocyte	Cardiomyocyte
+Fetal Atrial Cardiomyocyte	Fetal atrial cardiomyocyte	Cardiomyocyte
+Fetal Ventricular Cardioyocyte	Fetal ventricular cardiomyocyte	Cardiomyocyte
+Ventricular Cardiomyocyte	Ventricular cardiomyocyte	Cardiomyocyte
+cholangiocyte	Cholangiocyte	Cholangiocyte
+Fetal Cholangiocytes	Fetal cholangiocyte	Cholangiocyte
+ArticularChon1	Articular chondrocyte	Chondrocyte
+ArticularChon2	Articular chondrocyte	Chondrocyte
+ChondroPro1	Chondrocyte progenitor	Chondrocyte
+ChondroPro2	Chondrocyte progenitor	Chondrocyte
+CyclingChon	Cycling chondrocyte	Chondrocyte
+DLK1hiChon	DLK1 chondrocyte	Chondrocyte
+FacialChon	Facial chondrocyte	Chondrocyte
+HypertrophicChon	Hypertrophic chondrocyte	Chondrocyte
+InterzoneChon	Interzone chondrocyte	Chondrocyte
+MandibularChon	Mandibular chondrocyte	Chondrocyte
+MaturingChon	Maturing chondrocyte	Chondrocyte
+PAX7hiChon	PAX7+ chondrocyte	Chondrocyte
+Matrix	Matrix cell	Connective tissue cell
+TENO	Tenocyte	Connective tissue cell
+CLEC9a.DC	Dendritic cell	Dendritic cell
+Dendritic	Dendritic cell	Dendritic cell
+DC	Dendritic cell	Dendritic cell
+cDC2_2	cDC	Dendritic cell
+cDC2_1	cDC	Dendritic cell
+cDC2	cDC	Dendritic cell
+10_cDC	cDC	Dendritic cell
+cDC1	cDC	Dendritic cell
+cDC	cDC	Dendritic cell
+pDC	pDC	Dendritic cell
+09_pDC	pDC	Dendritic cell
+Alveolar Capillary Endothelial Cell	Alveolar capillary endothelial cell	Endothelial cell
+Artery	Arterial endothelial cell	Endothelial cell
+endothelial cell of artery	Arterial endothelial cell	Endothelial cell
+Blood Brain Barrier Endothelial Cell	Blood-brain barrier endothelial cell	Endothelial cell
+Capillary	Capillary endothelial cell	Endothelial cell
+endocardial cell	Endocardial cell	Endothelial cell
+Endocardial Cell	Endocardial cell	Endothelial cell
+endothelial cell	Endothelial cell	Endothelial cell
+EC	Endothelial cell	Endothelial cell
+1-Endothelia	Endothelial cell	Endothelial cell
+33-Endothelia	Endothelial cell	Endothelial cell
+Endothelial	Endothelial cell	Endothelial cell
+Endothelium	Endothelial cell	Endothelial cell
+Endothelial cells	Endothelial cell	Endothelial cell
+Endothelial (Exocrine Tissues)	Exocrine tissue endothelial cell	Endothelial cell
+Fetal Alveolar Endothelial Cell	Fetal alveolar endothelial cell	Endothelial cell
+Fetal Endocardial Cell	Fetal endocardial cell	Endothelial cell
+Fetal Endothelial (General) 1	Fetal endothelial cell	Endothelial cell
+Fetal Endothelial (General) 2	Fetal endothelial cell	Endothelial cell
+Fetal Endothelial (General) 3	Fetal endothelial cell	Endothelial cell
+Fetal Hepatic Endothelial 1	Fetal hepatic endothelial cell	Endothelial cell
+Fetal Hepatic Endothelial 2	Fetal hepatic endothelial cell	Endothelial cell
+Fetal Lymphatic Endothelial Cell	Fetal lymphatic endothelial cell	Endothelial cell
+Fetal Placental Endothelial Cell	Fetal placental endothelial cell	Endothelial cell
+general capillary cell	Capillary cell	Endothelial cell
+Endothelial Cell (General) 1	Endothelial cell	Endothelial cell
+Endothelial Cell (General) 2	Endothelial cell	Endothelial cell
+Endothelial Cell (General) 3	Endothelial cell	Endothelial cell
+Lymphatic Endothelial Cell	Lymphatic endothelial cell	Endothelial cell
+Lymphatic Endothelial	Lymphatic endothelial cell	Endothelial cell
+Lymphatic	Lymphatic endothelial cell	Endothelial cell
+lymphatic endothelial cell	Lymphatic endothelial cell	Endothelial cell
+Lymph.Endo	Lymphatic endothelial cell	Endothelial cell
+Lymphatic Endothelial Cells	Lymphatic endothelial cell	Endothelial cell
+Endothelial Cell (Myocardial)	Myocardial endothelial cell	Endothelial cell
+PER.END	Perivascular endothelial cell	Endothelial cell
+Vascular	Vascular	Endothelial cell
+Vas.Endo_1	Vascular endothelial cell	Endothelial cell
+Vas.Endo_2	Vascular endothelial cell	Endothelial cell
+Vas.Endo_3	Vascular endothelial cell	Endothelial cell
+Vein	Venous endothelial cell	Endothelial cell
+vein endothelial cell	Venous endothelial cell	Endothelial cell
+Basal	Basal cell	Epithelial cell
+basal cell	Basal cell	Epithelial cell
+CHO	Choroid plexus cell	Epithelial cell
+Cilliated Cell	Ciliated cell	Epithelial cell
+Ciliated	Ciliated cell	Epithelial cell
+ciliated cell	Ciliated cell	Epithelial cell
+20-Ciliated	Ciliated cell	Epithelial cell
+Cortical Epithelial-like	Cortical epithelial cell	Epithelial cell
+ductal cell	Ductal cell	Epithelial cell
+Ductal Cell (Pancreatic)	Ductal cell	Epithelial cell
+Ductal	Ductal cell	Epithelial cell
+Epithelial	Epithelial cell	Epithelial cell
+Epithelium	Epithelial cell	Epithelial cell
+10-Epithelial cell	Epithelial cell	Epithelial cell
+19-Epithelial cell	Epithelial cell	Epithelial cell
+3-Epithelial cell	Epithelial cell	Epithelial cell
+9-Epithelial cell	Epithelial cell	Epithelial cell
+34-Epithelial cell	Epithelial cell	Epithelial cell
+17-Epithelial cell	Epithelial cell	Epithelial cell
+epithelial ciliated cell	Epithelial ciliated cell	Epithelial cell
+epithelial secretory cell	Epithelial secretory cell	Epithelial cell
+Fetal Cilliated Epithelial Cell	Fetal ciliated epithelial cell	Epithelial cell
+Fetal Goblet Cell	Fetal goblet cell	Epithelial cell
+Fetal Mesothelial Cell	Fetal mesothelial cell	Epithelial cell
+Fetal Pancreatic Ductal Cell	Fetal pancreatic ductal cell	Epithelial cell
+Goblet cells	Goblet cell	Epithelial cell
+Goblet	Goblet cell	Epithelial cell
+Infundibulum	Infundibular cell	Epithelial cell
+Isthmus	Isthmus epithelial cell	Epithelial cell
+Mesothelial Cell	Mesothelial cell	Epithelial cell
+mesothelial cell	Mesothelial cell	Epithelial cell
+Mesothelial	Mesothelial cell	Epithelial cell
+Pancreatic Delta,Gamma cell	Pancreatic endocrine cell	Epithelial cell
+PEC	Prostate epithelial cell	Epithelial cell
+SIGA	Salivary gland acinar cell	Epithelial cell
+21-Unciliated epithelia 1	Unciliated epithelial cell	Epithelial cell
+22-Unciliated epithelia 2	Unciliated epithelial cell	Epithelial cell
+11-Unciliated epithelia 1	Unciliated epithelial cell	Epithelial cell
+31-Unciliated epithelia 1	Unciliated epithelial cell	Epithelial cell
+urothelial basal cell	Urothelial basal cell	Epithelial cell
+urothelial intermediate cell	Urothelial intermediate cell	Epithelial cell
+urothelial umbrella cell	Urothelial umbrella cell	Epithelial cell
+adrenal medulla chromaffin cell	Adrenal medulla chromaffin cell	Epithelial cell of adrenal gland
+Fetal Adrenal Chromaffin Cell	Fetal adrenal chromaffin cell	Epithelial cell of adrenal gland
+Fetal Adrenal Sympathoblasts	Fetal adrenal sympathoblast	Epithelial cell of adrenal gland
+Esophageal Epithelial Cell	Esophageal epithelial cell	Epithelial cell of esophagus
+Best4+ Enterocytes	BEST4+ enterocyte	Epithelial cell of intestine
+BEST4+ enterocyte	BEST4+ enterocyte	Epithelial cell of intestine
+Colon Epithelial Cell 1	Colonic epithelial cell	Epithelial cell of intestine
+Colon Epithelial Cell 2	Colonic epithelial cell	Epithelial cell of intestine
+Colon Epithelial Cell 3	Colonic epithelial cell	Epithelial cell of intestine
+colon stem cell	Colonic stem cell	Epithelial cell of intestine
+Enterochromaffin Cell	Enterochromaffin cell	Epithelial cell of intestine
+Enterocytes	Enterocyte	Epithelial cell of intestine
+enterocyte	Enterocyte	Epithelial cell of intestine
+Enteroendocrine	Enteroendocrine cell	Epithelial cell of intestine
+enteroendocrine cell	Enteroendocrine cell	Epithelial cell of intestine
+Fetal Enterocyte 1	Fetal enterocyte	Epithelial cell of intestine
+Fetal Enterocyte 2	Fetal enterocyte	Epithelial cell of intestine
+Fetal Enterocyte 3	Fetal enterocyte	Epithelial cell of intestine
+Fetal Enteroendocrine	Fetal enteroendocrine cell	Epithelial cell of intestine
+Colonic Goblet Cell	Goblet cell	Epithelial cell of intestine
+Small Intestinal Goblet Cell	Goblet cell	Epithelial cell of intestine
+goblet cell	Goblet cell	Epithelial cell of intestine
+Immature Enterocytes	Immature enterocyte	Epithelial cell of intestine
+immature enterocyte	Immature enterocyte	Epithelial cell of intestine
+Immature Goblet	Immature goblet cell	Epithelial cell of intestine
+immature goblet cell	Immature goblet cell	Epithelial cell of intestine
+Paneth Cell	Paneth cell	Epithelial cell of intestine
+Small Intestinal Enterocyte	Small intestinal enterocyte	Epithelial cell of intestine
+Tuft cells	Tuft cell	Epithelial cell of intestine
+Tuft Cell	Tuft cell	Epithelial cell of intestine
+tuft cell	Tuft cell	Epithelial cell of intestine
+XDH+ Jejunum	XDH+ jejunal cell	Epithelial cell of intestine
+ATL	Ascending thin limb cell	Epithelial cell of kidney
+CNT	Connecting tubule cell	Epithelial cell of kidney
+DTL	Descending thin limb cell	Epithelial cell of kidney
+DCT	Distal convoluted tubule cell	Epithelial cell of kidney
+Fetal Metanephric Cell	Fetal metanephric cell	Epithelial cell of kidney
+Fetal Ureteric Bud Cell	Fetal ureteric bud cell	Epithelial cell of kidney
+IC	Intercalated cell	Epithelial cell of kidney
+POD	Podocyte	Epithelial cell of kidney
+PC	Principal cell	Epithelial cell of kidney
+Proximal tubule	Proximal tubule cell	Epithelial cell of kidney
+PT	Proximal tubule cell	Epithelial cell of kidney
+TAL	Thick ascending limb cell	Epithelial cell of kidney
+aerocyte	Aerocyte	Epithelial cell of lung
+Airway Goblet Cell	Airway goblet cell	Epithelial cell of lung
+Alveolar Type 1 (AT1) Cell	Alveolar epithelial cell	Epithelial cell of lung
+Alveolar Type 2 (AT2) Cell	Alveolar epithelial cell	Epithelial cell of lung
+Alverolar Type 2,Immune	Alveolar epithelial cell with immune features	Epithelial cell of lung
+AT1	Alveolar type 1 cell	Epithelial cell of lung
+alveolar type 1 cell	Alveolar type 1 cell	Epithelial cell of lung
+AT2	Alveolar type 2 cell	Epithelial cell of lung
+alveolar type 2 cell	Alveolar type 2 cell	Epithelial cell of lung
+Club Cell	Club cell	Epithelial cell of lung
+Club	Club cell	Epithelial cell of lung
+Fetal Broncial and Alveolar Epithelial Cell 1	Fetal bronchial and alveolar epithelial cell	Epithelial cell of lung
+Fetal Broncial and Alveolar Epithelial Cell 2	Fetal bronchial and alveolar epithelial cell	Epithelial cell of lung
+Fetal Pulmonary Neuroendocrine Cell	Fetal pulmonary neuroendocrine cell	Epithelial cell of lung
+AT1/AT2	Mixed alveolar epithelial cell	Epithelial cell of lung
+Basal Epithelial (Mammary)	Mammary basal epithelial cell	Epithelial cell of mammary gland
+Mammary Epithelial	Mammary epithelial cell	Epithelial cell of mammary gland
+Mammary Luminal Epithelial Cell 2	Mammary luminal epithelial cell	Epithelial cell of mammary gland
+Mammary Luminal Epithelial Cell 1	Mammary luminal epithelial cell	Epithelial cell of mammary gland
+Basal Epidermal (Skin)	Basal epidermal cell	Epithelial cell of skin
+Basal.Kc_1	Basal keratinocyte	Epithelial cell of skin
+Eccrine Epidermal (Skin)	Eccrine epidermal cell	Epithelial cell of skin
+Eccrine	Eccrine epithelial cell	Epithelial cell of skin
+Granular Epidermal (Skin)	Granular epidermal cell	Epithelial cell of skin
+Inf.Segment_1	Inf.Segment	Epithelial cell of skin
+Inf.Segment_2	Inf.Segment	Epithelial cell of skin
+Keratinocyte 1	Keratinocyte	Epithelial cell of skin
+Keratinocyte 2	Keratinocyte	Epithelial cell of skin
+Sebaceous	Sebaceous cell	Epithelial cell of skin
+Myoepithelial (Skin)	Skin myoepithelial cell	Epithelial cell of skin
+Spinous.Kc_2	Spinous keratinocyte	Epithelial cell of skin
+Spinous.Kc_1	Spinous keratinocyte	Epithelial cell of skin
+Thyroid Follicular Cell	Thyroid follicular cell	Epithelial cell of thyroid
+AT2-pro	AT2 progenitor cell	Epithelial progenitor
+Enterocyte Progenitors	Enterocyte progenitor	Epithelial progenitor
+Secretory TA	Secretory transit-amplifying cell	Epithelial progenitor
+TA2	Transit-amplifying cell	Epithelial progenitor
+TA1	Transit-amplifying cell	Epithelial progenitor
+transit-amplifying cell	Transit-amplifying cell	Epithelial progenitor
+early-Ery	Early erythrocyte	Erythrocyte/Megakaryocyte
+02_Early.Eryth	Early erythrocyte	Erythrocyte/Megakaryocyte
+erythroblast	Erythroblast	Erythrocyte/Megakaryocyte
+Erythroid	Erythroid cell	Erythrocyte/Megakaryocyte
+Erythriod cells	Erythroid cell	Erythrocyte/Megakaryocyte
+Erythroid_Like	Erythroid cell	Erythrocyte/Megakaryocyte
+Fetal Erythroblast 3	Fetal erythroblast	Erythrocyte/Megakaryocyte
+Fetal Erythroblast 2	Fetal erythroblast	Erythrocyte/Megakaryocyte
+Fetal Erythroblast 1	Fetal erythroblast	Erythrocyte/Megakaryocyte
+Fetal Erythroblast 4	Fetal erythroblast	Erythrocyte/Megakaryocyte
+Fetal Erythroblast 5	Fetal erythroblast	Erythrocyte/Megakaryocyte
+Fetal Megakaryocyte	Fetal megakaryocyte	Erythrocyte/Megakaryocyte
+late-Ery	Late erythrocyte	Erythrocyte/Megakaryocyte
+03_Late.Eryth	Late erythrocyte	Erythrocyte/Megakaryocyte
+BFEXA	Basal forebrain excitatory neuron	Excitatory neuron
+Cajal-Retzius cell	Cajal-Retzius cell	Excitatory neuron
+CBGRC	Cerebellar granule cell	Excitatory neuron
+cerebellar granule1	Cerebellar granule cell	Excitatory neuron
+cerebellar granule2	Cerebellar granule cell	Excitatory neuron
+CNGA_1	Cerebellar nucleus glutamatergic neuron	Excitatory neuron
+CNGA_2	Cerebellar nucleus glutamatergic neuron	Excitatory neuron
+ET	ET excitatory neuron	Excitatory neuron
+EX	Excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 1	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 4	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 3	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 6	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 9	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 8	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 5	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 7	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 10	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 11	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 12	Fetal excitatory neuron	Excitatory neuron
+Fetal Excitatory Neuron 2	Fetal excitatory neuron	Excitatory neuron
+Glutamatergic Neuron 1	Glutamatergic neuron	Excitatory neuron
+Glutamatergic Neuron 2	Glutamatergic neuron	Excitatory neuron
+EN-IT-Immature	IT immature excitatory neuron	Excitatory neuron
+ITL23_1	L2/3 IT excitatory neuron	Excitatory neuron
+ITL23_6	L2/3 IT excitatory neuron	Excitatory neuron
+ITL23_4	L2/3 IT excitatory neuron	Excitatory neuron
+ITL23_5	L2/3 IT excitatory neuron	Excitatory neuron
+ITL23_3	L2/3 IT excitatory neuron	Excitatory neuron
+ITL23_2	L2/3 IT excitatory neuron	Excitatory neuron
+EN-L2_3-IT	L2/3 IT excitatory neuron	Excitatory neuron
+ITL34	L3/4 IT excitatory neuron	Excitatory neuron
+ITL4_2	L4 IT excitatory neuron	Excitatory neuron
+ITL4_1	L4 IT excitatory neuron	Excitatory neuron
+EN-L4-IT	L4 IT excitatory neuron	Excitatory neuron
+ITL45_1	L4/5 IT excitatory neuron	Excitatory neuron
+ITL45_2	L4/5 IT excitatory neuron	Excitatory neuron
+EN-L5-ET	L5 ET excitatory neuron	Excitatory neuron
+ITL5_1	L5 IT excitatory neuron	Excitatory neuron
+ITL5_2	L5 IT excitatory neuron	Excitatory neuron
+ITL5_3	L5 IT excitatory neuron	Excitatory neuron
+EN-L5-IT	L5 IT excitatory neuron	Excitatory neuron
+ITL5_4	L5 IT excitatory neuron	Excitatory neuron
+EN-L5_6-NP	L5/6 NP excitatory neuron	Excitatory neuron
+EN-L6-CT	L6 CT excitatory neuron	Excitatory neuron
+ITL6_1_1	L6 IT excitatory neuron	Excitatory neuron
+ITL6_2_1	L6 IT excitatory neuron	Excitatory neuron
+EN-L6-IT	L6 IT excitatory neuron	Excitatory neuron
+ITL6_1_2	L6 IT excitatory neuron	Excitatory neuron
+ITL6_2_2	L6 IT excitatory neuron	Excitatory neuron
+EN-L6b	L6b excitatory neuron	Excitatory neuron
+L6B_1	Layer 6B neuron	Excitatory neuron
+L6B_2	Layer 6B neuron	Excitatory neuron
+EN-Newborn	Newborn excitatory neuron	Excitatory neuron
+EN-Non-IT-Immature	Non-IT immature excitatory neuron	Excitatory neuron
+TP	Tufted-pyramidal neuron	Excitatory neuron
+ITV1C_1	V1 cortex excitatory neuron	Excitatory neuron
+ITV1C_2	V1 cortex excitatory neuron	Excitatory neuron
+ITV1C_3	V1 cortex excitatory neuron	Excitatory neuron
+Fetal Photoreceptor Cell	Fetal photoreceptor cell	Fetal retinal cell
+Fetal Retinal Neuron	Fetal retinal neuron	Fetal retinal cell
+Fetal Retinal Pigment Cell	Fetal retinal pigment cell	Fetal retinal cell
+Fetal Retinal Progenitors and Muller glia 1	Fetal retinal progenitor and Müller glial cell	Fetal retinal cell
+Fetal Retinal Progenitors and Muller glia 2	Fetal retinal progenitor and Müller glial cell	Fetal retinal cell
+Adventitial fibroblast	Adventitial fibroblast	Fibroblast
+adventitial fibroblast	Adventitial fibroblast	Fibroblast
+alveolar fibroblast	Alveolar fibroblast	Fibroblast
+Cancer Associated Fibroblasts	Cancer associated fibroblast	Fibroblast
+Cardiac Fibroblasts	Cardiac fibroblast	Fibroblast
+crypt fibroblast	Crypt fibroblast	Fibroblast
+Crypt Fibroblasts 1	Crypt fibroblast	Fibroblast
+Crypt Fibroblasts 2	Crypt fibroblast	Fibroblast
+Crypt Fibroblasts 3	Crypt fibroblast	Fibroblast
+Crypt Fibroblasts 4	Crypt fibroblast	Fibroblast
+DermFIB1	Dermal fibroblast	Fibroblast
+D.Fib_1	Dermal fibroblast	Fibroblast
+DermFIB2	Dermal fibroblast	Fibroblast
+D.Fib_2	Dermal fibroblast	Fibroblast
+D.Fib_3	Dermal fibroblast	Fibroblast
+D.Fib_4	Dermal fibroblast	Fibroblast
+D.Papilla	Dermal papilla cell	Fibroblast
+Fibroblast (Epithelial)	Epithelial-associated fibroblast	Fibroblast
+Fetal Cardiac Fibroblast	Fetal cardiac fibroblast	Fibroblast
+Fetal Fibroblast (Gastrointestinal)	Fetal gastrointestinal fibroblast	Fibroblast
+Fetal Fibroblast (General) 2	Fetal fibroblast	Fibroblast
+Fetal Fibroblast (General) 3	Fetal fibroblast	Fibroblast
+Fetal Fibroblast (General) 1	Fetal fibroblast	Fibroblast
+Fetal Fibroblast (General) 4	Fetal fibroblast	Fibroblast
+Fetal Fibroblast (General) 5	Fetal fibroblast	Fibroblast
+Fetal Placental Fibroblast 1	Fetal placental fibroblast	Fibroblast
+Fetal Placental Fibroblast 2	Fetal placental fibroblast	Fibroblast
+Fetal Fibroblast (Sk Muscle Associated) 1	Fetal skeletal muscle associated fibroblast	Fibroblast
+Fetal Fibroblast (Splenic)	Fetal splenic fibroblast	Fibroblast
+Fibroblast (General)	Fibroblast	Fibroblast
+fibroblast	Fibroblast	Fibroblast
+Fibroblast	Fibroblast	Fibroblast
+0-Fibroblast	Fibroblast	Fibroblast
+27-Fibroblast	Fibroblast	Fibroblast
+26-Fibroblast	Fibroblast	Fibroblast
+24-Fibroblast	Fibroblast	Fibroblast
+18-Fibroblast	Fibroblast	Fibroblast
+6-Fibroblast	Fibroblast	Fibroblast
+25-Fibroblast	Fibroblast	Fibroblast
+FIB	Fibroblast	Fibroblast
+16-Fibroblast	Fibroblast	Fibroblast
+29-Fibroblast	Fibroblast	Fibroblast
+FibroPRO1	Fibroblast progenitor	Fibroblast
+FibroPRO2	Fibroblast progenitor	Fibroblast
+Fibroblast (Gastrointestinal)	Gastrointestinal fibroblast	Fibroblast
+Fibroblast (Liver Adrenal)	Liver/adrenal fibroblast	Fibroblast
+myofibroblast	Myofibroblast	Fibroblast
+MyoFib.	Myofibroblast	Fibroblast
+MyofibPRO	Myofibroblast progenitor	Fibroblast
+PerineuralFIB	Perineural fibroblast	Fibroblast
+Fibroblast (Peripheral Nerve)	Peripheral nerve fibroblast	Fibroblast
+preCAF	Pre-cancer associated fibroblast	Fibroblast
+Fibroblast (Sk Muscle Associated)	Skeletal muscle associated fibroblast	Fibroblast
+12-Stromal fibroblasts	Stromal fibroblast	Fibroblast
+14-Stromal fibroblasts	Stromal fibroblast	Fibroblast
+8-Stromal fibroblasts	Stromal fibroblast	Fibroblast
+15-Stromal fibroblasts	Stromal fibroblast	Fibroblast
+23-Stromal fibroblasts	Stromal fibroblast	Fibroblast
+SynFIB	Synovial fibroblast	Fibroblast
+Villus Fibroblasts WNT5B+	WNT5B+ villus fibroblast	Fibroblast
+WNT5B+ villus fibroblast	WNT5B+ villus fibroblast	Fibroblast
+Chief Cell	Chief cell	Gastric epithelial cell
+Fetal Gastric Goblet Cell	Fetal gastric goblet cell	Gastric epithelial cell
+Fetal Parietal,Chief Cell	Fetal parietal/chief cell	Gastric epithelial cell
+Foveolar Cell	Foveolar cell	Gastric epithelial cell
+Gastric Neuroendocrine Cell	Gastric neuroendocrine cell	Gastric epithelial cell
+Parietal Cell	Parietal cell	Gastric epithelial cell
+Fetal Enteric Glia	Fetal enteric glia	Glial cell
+Glia	Glial cell	Glial cell
+Mueller cell	Müller glial cell	Glial cell
+Baso	Basophil	Granulocyte
+04_Early.Baso	Early basophil	Granulocyte
+Mast Cell	Mast cell	Granulocyte
+32-Mast cell	Mast cell	Granulocyte
+mast cell	Mast cell	Granulocyte
+Mast	Mast cell	Granulocyte
+Mast2	Mast cell	Granulocyte
+neutrophil	Neutrophil	Granulocyte
+Neutrophil cells	Neutrophil	Granulocyte
+CLP	Common lymphoid progenitor	Hematopoietic progenitor
+CMP	Common myeloid progenitor	Hematopoietic progenitor
+GMP	Granulocyte-monocyte progenitor	Hematopoietic progenitor
+HSC/MPP	HSC/MPP	Hematopoietic progenitor
+HSPC	HSPC	Hematopoietic progenitor
+HSPC-2	HSPC	Hematopoietic progenitor
+HSP	HSPC	Hematopoietic progenitor
+HSPC-1	HSPC	Hematopoietic progenitor
+LMPP	Lymphoid-primed multipotent progenitor	Hematopoietic progenitor
+MEP	Megakaryocyte-erythroid progenitor	Hematopoietic progenitor
+MPP	Multipotent progenitor	Hematopoietic progenitor
+15_CLP.2	Common lymphoid progenitor	Hematopoietic stem/progenitor cell
+06_CLP.1	Common lymphoid progenitor	Hematopoietic stem/progenitor cell
+05_CMP.LMPP	Common lymphoid progenitor	Hematopoietic stem/progenitor cell
+Fetal Hematopoeitic Stem Cell	Fetal hematopoietic stem cell	Hematopoietic stem/progenitor cell
+07_GMP	Granulocyte-monocyte progenitor	Hematopoietic stem/progenitor cell
+IMM	Immune cell	Hematopoietic stem/progenitor cell
+08_GMP.Neut	Neutrophil progenitor	Hematopoietic stem/progenitor cell
+Fetal Hepatoblast	Fetal hepatoblast	Hepatocyte
+Hepatocyte	Hepatocyte	Hepatocyte
+hepatocyte	Hepatocyte	Hepatocyte
+B cell/Mono	B cell/Monocyte	Immune cell
+Hofbauer immune cells	Hofbauer immune cell	Immune cell
+Immune	Immune cell	Immune cell
+Immune cells	Immune cell	Immune cell
+immune cell	Immune cell	Immune cell
+BNGA	Basal nucleus GABAergic neuron	Inhibitory neuron
+IN-CGE-Immature	CGE-derived immature inhibitory neuron	Inhibitory neuron
+CBINH	Cerebellar inhibitory neuron	Inhibitory neuron
+D1CaB	D1 calbindin-expressing neuron	Inhibitory neuron
+D1Pu	D1 putamen neuron	Inhibitory neuron
+D12NAC	D1/D2 nucleus accumbens neuron	Inhibitory neuron
+D2CaB	D2 calbindin-expressing neuron	Inhibitory neuron
+D2Pu	D2 putamen neuron	Inhibitory neuron
+Fetal Inhibitory Neuron 1	Fetal inhibitory neuron	Inhibitory neuron
+Fetal Inhibitory Neuron 5	Fetal inhibitory neuron	Inhibitory neuron
+Fetal Inhibitory Neuron 3	Fetal inhibitory neuron	Inhibitory neuron
+Fetal Inhibitory Neuron 2	Fetal inhibitory neuron	Inhibitory neuron
+Fetal Inhibitory Neuron 4	Fetal inhibitory neuron	Inhibitory neuron
+GABAergic Neuron 1	GABAergic neuron	Inhibitory neuron
+GABAergic Neuron 2	GABAergic neuron	Inhibitory neuron
+ICGA_1	Inferior colliculus GABAergic neuron	Inhibitory neuron
+ICGA_2	Inferior colliculus GABAergic neuron	Inhibitory neuron
+INH	Inhibitory neuron	Inhibitory neuron
+LAMP5	LAMP5 inhibitory neuron	Inhibitory neuron
+IN-Mix-LAMP5	LAMP5 inhibitory neuron	Inhibitory neuron
+LAMP5_LHX6	LAMP5-LHX6 inhibitory neuron	Inhibitory neuron
+IN-MGE-Immature	MGE-derived immature inhibitory neuron	Inhibitory neuron
+MDGA	Medial ganglionic GABAergic neuron	Inhibitory neuron
+MSN_3	Medium spiny neuron	Inhibitory neuron
+MSN_2	Medium spiny neuron	Inhibitory neuron
+MSN_1	Medium spiny neuron	Inhibitory neuron
+IN-MGE-PV	PV inhibitory neuron	Inhibitory neuron
+PVALB_3	PVALB inhibitory neuron	Inhibitory neuron
+PVALB_1	PVALB inhibitory neuron	Inhibitory neuron
+PVALB_4	PVALB inhibitory neuron	Inhibitory neuron
+PVALB_2	PVALB inhibitory neuron	Inhibitory neuron
+PV_ChCs	Parvalbumin+ chandelier cell	Inhibitory neuron
+SNCG_3	SNCG inhibitory neuron	Inhibitory neuron
+SNCG_5	SNCG inhibitory neuron	Inhibitory neuron
+SNCG_1	SNCG inhibitory neuron	Inhibitory neuron
+SNCG_2	SNCG inhibitory neuron	Inhibitory neuron
+SNCG_4	SNCG inhibitory neuron	Inhibitory neuron
+IN-CGE-SNCG	SNCG inhibitory neuron	Inhibitory neuron
+SST_1	SST inhibitory neuron	Inhibitory neuron
+SST_4	SST inhibitory neuron	Inhibitory neuron
+SST_5	SST inhibitory neuron	Inhibitory neuron
+SST_2	SST inhibitory neuron	Inhibitory neuron
+SST_3	SST inhibitory neuron	Inhibitory neuron
+IN-MGE-SST	SST inhibitory neuron	Inhibitory neuron
+SST_CHODL	SST-CHODL inhibitory neuron	Inhibitory neuron
+SEPGA	Septal GABAergic neuron	Inhibitory neuron
+THMGA_2	Thalamic GABAergic neuron	Inhibitory neuron
+THMGA_1	Thalamic GABAergic neuron	Inhibitory neuron
+VIP_6	VIP inhibitory neuron	Inhibitory neuron
+VIP_1	VIP inhibitory neuron	Inhibitory neuron
+VIP_5	VIP inhibitory neuron	Inhibitory neuron
+VIP_3	VIP inhibitory neuron	Inhibitory neuron
+VIP_7	VIP inhibitory neuron	Inhibitory neuron
+VIP_4	VIP inhibitory neuron	Inhibitory neuron
+VIP_2	VIP inhibitory neuron	Inhibitory neuron
+IN-CGE-VIP	VIP inhibitory neuron	Inhibitory neuron
+IN-dLGE-Immature	dLGE-derived immature inhibitory neuron	Inhibitory neuron
+ILCs	Innate lymphoid cell	Lymphocyte
+innate lymphoid cell	Innate lymphoid cell	Lymphocyte
+lymphatic cell	Lymphocyte	Lymphocyte
+4-Lymphocytes	Lymphocyte	Lymphocyte
+lymphocyte	Lymphocyte	Lymphocyte
+Lymphoid	Lymphocyte	Lymphocyte
+Lymphoid_Like	Lymphocyte	Lymphocyte
+Macrophage (General,Alveolar)	Alveolar macrophage	Macrophage
+Fetal Hepatic Macrophage 1	Fetal hepatic macrophage	Macrophage
+Fetal Hepatic Macrophage 2	Fetal hepatic macrophage	Macrophage
+Fetal Hepatic Macrophage 3	Fetal hepatic macrophage	Macrophage
+Fetal Macrophage(General) 2	Fetal macrophage	Macrophage
+Fetal Macrophage (General) 3	Fetal macrophage	Macrophage
+Fetal Macrophage (General) 1	Fetal macrophage	Macrophage
+Fetal Macrophage (General) 4	Fetal macrophage	Macrophage
+Fetal Placental Macrophage	Fetal placental macrophage	Macrophage
+M1.macs	M1 macrophage	Macrophage
+M2.macs_3	M2 Macrophage	Macrophage
+M2.macs_1	M2 Macrophage	Macrophage
+M2.macs_2	M2 Macrophage	Macrophage
+Macrophage (General)	Macrophage	Macrophage
+macrophage	Macrophage	Macrophage
+13-Macrophages	Macrophage	Macrophage
+5-Macrophage	Macrophage	Macrophage
+Macrophage	Macrophage	Macrophage
+Macrophages	Macrophage	Macrophage
+Melanocytes	Melanocyte	Melanocyte
+Melanocyte	Melanocyte	Melanocyte
+Arachnoid	Arachnoid cell	Meningeal cell
+D.Sheath	Dural sheath cell	Meningeal cell
+Meningeal Dura	Meningeal dura cell	Meningeal cell
+Periosteal Dura	Periosteal dura cell	Meningeal cell
+Perisuture	Perisuture cell	Meningeal cell
+Fetal Mesangial Cell 1	Fetal mesangial cell	Mesangial cell
+Fetal Mesangial Cell 2	Fetal mesangial cell	Mesangial cell
+CranialMes	Cranial mesenchymal cell	Mesenchymal cell
+FacialMes	Facial mesenchymal cell	Mesenchymal cell
+HIC1+Mes	HIC1+ mesenchymal cell	Mesenchymal cell
+LEPR+Mes	LEPR+ mesenchymal cell	Mesenchymal cell
+LimbMes	Limb mesenchymal cell	Mesenchymal cell
+PArchMes	Pharyngeal arch mesenchymal cell	Mesenchymal cell
+SutureMes2	Suture mesenchymal	Mesenchymal cell
+SutureMes1	Suture mesenchymal	Mesenchymal cell
+MG	Microglia	Microglia
+Microglia	Microglia	Microglia
+microglial cell	Microglia	Microglia
+microglia	Microglia	Microglia
+MGC_1	Microglia	Microglia
+MGC_2	Microglia	Microglia
+CD14 Mono	CD14 monocyte	Monocyte
+11_CD14.Mono.1	CD14 monocyte	Monocyte
+12_CD14.Mono.2	CD14 monocyte	Monocyte
+CD16 Mono	CD16 monocyte	Monocyte
+Monocyte	Monocyte	Monocyte
+Mono	Monocyte	Monocyte
+monocyte	Monocyte	Monocyte
+Myeloid	Myeloid cell	Myeloid cell
+myeloid cell	Myeloid cell	Myeloid cell
+Myeloid cells	Myeloid cell	Myeloid cell
+Myloid cells	Myeloid cell	Myeloid cell
+Myeloid_Like	Myeloid cell	Myeloid cell
+NK Proliferating	Cycling NK cell	NK cell
+Natural Killer T Cell	NK T cell	NK cell
+NK/T	NK T cell	NK cell
+NK	NK cell	NK cell
+25_NK	NK cell	NK cell
+natural killer cell	NK cell	NK cell
+IPC-EN	Excitatory intermediate progenitor	Neural progenitor
+IPC-Glia	Glial intermediate progenitor	Neural progenitor
+NP_1	Neural progenitor	Neural progenitor
+NP_3	Neural progenitor	Neural progenitor
+NP_2	Neural progenitor	Neural progenitor
+RG-oRG	RG-oRG	Neural progenitor
+RG-tRG	RG-tRG	Neural progenitor
+RG-vRG	RG-vRG	Neural progenitor
+ACBGM	Accessory basal ganglia neuron	Neuron
+AMY	Amygdala neuron	Neuron
+CNMIX	Cerebellar nucleus mixed neuron	Neuron
+CTXMIX	Cortical mixed neuron	Neuron
+CT_1	Cortical neuron	Neuron
+CT_2	Cortical neuron	Neuron
+CNS,Enteric Neuron	Enteric neuron	Neuron
+ERC_1	Entorhinal cortex neuron	Neuron
+ERC_2	Entorhinal cortex neuron	Neuron
+FOXP2_1	FOXP2 expressing neuron	Neuron
+FOXP2_2	FOXP2 expressing neuron	Neuron
+FOXP2_3	FOXP2 expressing neuron	Neuron
+FOXP2_4	FOXP2 expressing neuron	Neuron
+Fetal Adrenal Neuron	Fetal adrenal neuron	Neuron
+Fetal Enteric Neuron	Fetal enteric neuron	Neuron
+Fetal Placental Neuron	Fetal placental neuron	Neuron
+GC	Granule cell	Neuron
+nerve cell	Nerve cell	Neuron
+neural cell	Neural cell	Neuron
+neuronal	Neuron	Neuron
+Neural	Neuronal	Neuron
+Neuronal	Neuronal	Neuron
+neuronal cell	Neuronal cell	Neuron
+N1	Neuronal cell type	Neuron
+N2	Neuronal cell type	Neuron
+PIR	Piriform cortex neuron	Neuron
+PKJ_2	Purkinje cell	Neuron
+PKJ_1	Purkinje cell	Neuron
+SUB	Subicular neuron	Neuron
+Fetal Oligodendrocyte Progenitor 2	Fetal oligodendrocyte precursor cell	Oligodendrocyte
+Oligodendrocyte-Immature	Immature oligodendrocyte	Oligodendrocyte
+Oligodendrocyte	Oligodendrocyte	Oligodendrocyte
+ODC	Oligodendrocyte	Oligodendrocyte
+OGC_2	Oligodendrocyte	Oligodendrocyte
+OGC_3	Oligodendrocyte	Oligodendrocyte
+OGC_1	Oligodendrocyte	Oligodendrocyte
+oligodendrocytes	Oligodendrocyte	Oligodendrocyte
+OPC	Oligodendrocyte precursor cell	Oligodendrocyte
+Oligodendrocyte Precursor	Oligodendrocyte precursor cell	Oligodendrocyte
+COP	Oligodendrocyte precursor cell	Oligodendrocyte
+HHIP+PreOB	HHIP+ preosteoblast	Osteoblast
+MatureOsteocyte	Mature osteocyte	Osteoblast
+Osteoblast	Osteoblast	Osteoblast
+Osteocyte	Osteocyte	Osteoblast
+Preosteoblast	Preosteoblast	Osteoblast
+Luteal Cell (Ovarian)	Ovarian luteal cell	Ovarian cell
+Fetal Pancreatic Islet Cell	Fetal pancreatic islet cell	Pancreatic endocrine cell
+Gamma	Pancreatic PP cell	Pancreatic endocrine cell
+gamma cell	Pancreatic PP cell	Pancreatic endocrine cell
+Alpha	Pancreatic alpha cell	Pancreatic endocrine cell
+Pancreatic Alpha Cell 1	Pancreatic alpha cell	Pancreatic endocrine cell
+Pancreatic Alpha Cell 2	Pancreatic alpha cell	Pancreatic endocrine cell
+Beta	Pancreatic beta cell	Pancreatic endocrine cell
+Pancreatic Beta Cell 1	Pancreatic beta cell	Pancreatic endocrine cell
+Pancreatic Beta Cell 2	Pancreatic beta cell	Pancreatic endocrine cell
+beta cell	Pancreatic beta cell	Pancreatic endocrine cell
+pancreatic cell	Pancreatic cell	Pancreatic endocrine cell
+Delta	Pancreatic delta cell	Pancreatic endocrine cell
+alpha cell, gamma cell, epsilon cell	Pancreatic endocrine cell	Pancreatic endocrine cell
+Fetal Pancreatic Acinar Cell 2	Fetal pancreatic acinar cell	Pancreatic exocrine cell
+Fetal Pancreatic Acinar Cell 1	Fetal pancreatic acinar cell	Pancreatic exocrine cell
+Pancreatic Acinar Cell	Pancreatic acinar cell	Pancreatic exocrine cell
+Acinar	Pancreatic acinar cell	Pancreatic exocrine cell
+pancreatic acinar cell	Pancreatic acinar cell	Pancreatic exocrine cell
+Cardiac Pericyte 1	Cardiac pericyte	Pericyte
+Cardiac Pericyte 2	Cardiac pericyte	Pericyte
+Cardiac Pericyte 3	Cardiac pericyte	Pericyte
+Cardiac Pericyte 4	Cardiac pericyte	Pericyte
+Pericyte (Esophageal Muscularis)	Esophageal muscularis pericyte	Pericyte
+Pericyte (General) 1	Pericyte	Pericyte
+Pericyte (General) 2	Pericyte	Pericyte
+Pericyte (General) 3	Pericyte	Pericyte
+Pericyte (General) 4	Pericyte	Pericyte
+pericyte	Pericyte	Pericyte
+PERI	Pericyte	Pericyte
+Pericyte	Pericyte	Pericyte
+Pericytes	Pericyte	Pericyte
+perivascular cell	Perivascular cell	Pericyte
+VSM/P	Vascular smooth muscle/Pericyte	Pericyte
+Fetal Extravillous Trophoblast	Fetal extravillous trophoblast	Placental cell
+Fetal Syncitiotrophoblast,Cytotrophoblast,Trophoblast Giant	Fetal trophoblast	Placental cell
+placental villous trophoblast	Placental villous trophoblast	Placental cell
+syncytiotrophoblast cell	Syncytiotrophoblast	Placental cell
+retinal cone cell	Cone cell	Retinal cell
+retina horizontal cell	Horizontal cell	Retinal cell
+retinal ganglion cell	Retinal ganglion cell	Retinal cell
+retinal rod cell	Rod cell	Retinal cell
+Fetal Schwann Cell	Fetal Schwann cell	Schwann cell
+Schwann Cell (General)	Schwann cell	Schwann cell
+Schwann cell	Schwann cell	Schwann cell
+Schwann	Schwann cell	Schwann cell
+Fetal Satellite Cell 1	Fetal satellite cell	Skeletal muscle cell
+Fetal Satellite Cell 2	Fetal satellite cell	Skeletal muscle cell
+Fetal Skeletal Myocyte 1	Fetal skeletal myocyte	Skeletal muscle cell
+Fetal Skeletal Myocyte 2	Fetal skeletal myocyte	Skeletal muscle cell
+Fetal Skeletal Myocyte 3	Fetal skeletal myocyte	Skeletal muscle cell
+MYH3+ Myo	MYH3+ myocyte	Skeletal muscle cell
+muscle satellite cell	Muscle satellite cell	Skeletal muscle cell
+PAX7+ Myo	PAX7+ myocyte	Skeletal muscle cell
+Satellite Cell	Satellite cell	Skeletal muscle cell
+type 1 muscle cell	Type I muscle cell	Skeletal muscle cell
+Type I Skeletal Myocyte	Type I skeletal myocyte	Skeletal muscle cell
+type 2 muscle cell	Type II muscle cell	Skeletal muscle cell
+Type II Skeletal Myocyte	Type II skeletal myocyte	Skeletal muscle cell
+airway smooth muscle cell	Airway smooth muscle cell	Smooth muscle cell
+Smooth Muscle (Colon) 1	Colonic smooth muscle cell	Smooth muscle cell
+Smooth Muscle (Colon) 2	Colonic smooth muscle cell	Smooth muscle cell
+Smooth Muscle (Esophageal Mucosal)	Esophageal mucosal smooth muscle cell	Smooth muscle cell
+Smooth Muscle (Esophageal Muscularis) 2	Esophageal muscularis smooth muscle cell	Smooth muscle cell
+Smooth Muscle (Esophageal Muscularis) 1	Esophageal muscularis smooth muscle cell	Smooth muscle cell
+Smooth Muscle (Esophageal Muscularis) 3	Esophageal muscularis smooth muscle cell	Smooth muscle cell
+Smooth Muscle (GE Junction)	Gastroesophageal junction smooth muscle cell	Smooth muscle cell
+Smooth Muscle (General Gastrointestinal)	Gastrointestinal smooth muscle cell	Smooth muscle cell
+Smooth Muscle (General)	Smooth muscle cell	Smooth muscle cell
+interstitial cell of cajal	Interstitial cell of Cajal	Smooth muscle cell
+Muscle	Muscle cell	Smooth muscle cell
+muscle cell	Muscle cell	Smooth muscle cell
+Myofibroblasts/Smooth Muscle 1	Myofibroblast/smooth muscle cell	Smooth muscle cell
+Myofibroblasts/Smooth Muscle 2	Myofibroblast/smooth muscle cell	Smooth muscle cell
+Myofibroblasts/Smooth Muscle 3	Myofibroblast/smooth muscle cell	Smooth muscle cell
+7-Smooth muscle cells	Smooth muscle cell	Smooth muscle cell
+SMC	Smooth muscle cell	Smooth muscle cell
+smooth muscle cell	Smooth muscle cell	Smooth muscle cell
+Sm. Mus.	Smooth muscle cell	Smooth muscle cell
+Smooth Muscle (Uterine)	Uterine smooth muscle cell	Smooth muscle cell
+Smooth Muscle (Vaginal)	Vaginal smooth muscle cell	Smooth muscle cell
+Vascular Smooth Muscle 2	Vascular smooth muscle cell	Smooth muscle cell
+Vascular Smooth Muscle 1	Vascular smooth muscle cell	Smooth muscle cell
+vSMCs	Vascular smooth muscle cell	Smooth muscle cell
+vascular smooth muscle cell	Vascular smooth muscle cell	Smooth muscle cell
+Fetal Hepatic Stellate Cell	Fetal hepatic stellate cell	Stellate cell
+Stellate	Stellate cell	Stellate cell
+stellate cell	Stellate cell	Stellate cell
+01_HSC	Hematopoietic stem cell	Stem cell
+Stem	Stem cell	Stem cell
+ovarian stromal cell	Ovarian stromal cell	Stromal cell
+Peripheral Nerve Stromal	Peripheral nerve stromal cell	Stromal cell
+uterine stromal cell	Uterine stromal cell	Stromal cell
+T lymphocyte 2 (CD4+)	CD4 T cell	T cell
+CD4.Tc_2	CD4 T cell	T cell
+CD4.Tc_1	CD4 T cell	T cell
+CD4.Tc_3	CD4 T cell	T cell
+CD4	CD4 T cell	T cell
+CD4+ 3	CD4 T cell	T cell
+CD4+	CD4 T cell	T cell
+CD4+ 2	CD4 T cell	T cell
+22_CD4.M	CD4 memory T cell	T cell
+20_CD4.N1	CD4 naive T cell	T cell
+21_CD4.N2	CD4 naive T cell	T cell
+T Lymphocyte 1 (CD8+)	CD8 T cell	T cell
+CD8.Tc	CD8 T cell	T cell
+CD8	CD8 T cell	T cell
+CD8+	CD8 T cell	T cell
+CD8 T	CD8 T cell	T cell
+24_CD8.CM	CD8 central memory T cell	T cell
+19_CD8.N	CD8 naive T cell	T cell
+CD4 TCM	Central memory CD4 T cell	T cell
+CD8 TCM	Central memory CD8 T cell	T cell
+CD8 TEM	Effector CD8 T cell	T cell
+23_CD8.EM	Effector memory CD8 T cell	T cell
+Exhausted T cells	Exhausted T cell	T cell
+Fetal T Lymphocyte 1 (CD4+)	Fetal CD4+ T cell	T cell
+Fetal T Lymphocyte 4 (FASLG+)	Fetal FASLG+ T cell	T cell
+Fetal T Lymphocyte 3 (IL2+)	Fetal IL2+ T cell	T cell
+Fetal T Lymphocyte 2 (Cytotoxic)	Fetal cytotoxic T cell	T cell
+Fetal Thymocyte	Fetal thymocyte	T cell
+CD4 Naive	Naive CD4 T cell	T cell
+CD8 Naive	Naive CD8 T cell	T cell
+Naive T cell	Naive T cell	T cell
+NaiveT	Naive T cell	T cell
+Naive T	Naive T cell	T cell
+Treg	Regulatory T cell	T cell
+Tregs	Regulatory T cell	T cell
+T cell	T cell	T cell
+T	T cell	T cell
+2-T cell	T cell	T cell
+30-T cell	T cell	T cell
+MAIT	T cell	T cell
+T Proliferating	T cell	T cell
+T cells	T cell	T cell
+TNK_Like	TNK cell	T cell
+Mitochondria	Mitochondria-rich cell	Unclassified cell
+Malignant cells	Unclassified cell	Unclassified cell
+13_Unk	Unknown	Unclassified cell
+26_Unk	Unknown	Unclassified cell
+14_Unk	Unknown	Unclassified cell
+Unknown	Unknown	Unclassified cell
+Unknown_1	Unknown	Unclassified cell
+Unknown_2	Unknown	Unclassified cell
+Healthy_Like	Unknown	Unclassified cell
+Progenitor_Like	Unknown	Unclassified cell
+precursor cells	Unknown	Unclassified cell
+cycling cell	Unknown	Unclassified cell
+Proliferation cells	Unknown	Unclassified cell
+Proliferation cells1	Unknown	Unclassified cell
+Proliferation cells2	Unknown	Unclassified cell

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell Type - Regulatory Genome Atlas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Regulatory Genome Atlas</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="atlas.html" class="nav-link">Atlas</a></li>
+                    <li><a href="cell-type.html" class="nav-link active">Cell Type</a></li>
+                    <li>
+                        <div class="search-container">
+                            <input type="text" id="search-input" placeholder="Cell Type, Tissue, or Marker..." class="search-input">
+                            <button class="search-btn" onclick="performCellTypeSearch()">Search</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="celltype-hero">
+            <div class="container">
+                <h2>Cell Type Ontology Explorer</h2>
+                <p>Explore cell type annotations, markers, and tissue classifications</p>
+            </div>
+        </section>
+
+        <div class="celltype-container">
+            <!-- Section Toggle -->
+            <div class="section-toggle">
+                <button class="toggle-btn active" onclick="showSection('search')">Search the Cell Type</button>
+                <button class="toggle-btn" onclick="showSection('hierarchy')">Category Hierarchy</button>
+            </div>
+
+            <!-- Search Section -->
+            <div id="search-section" class="section-content">
+                <div class="celltype-controls">
+                    <div class="controls-header">
+                        <h3>Cell Type Browser</h3>
+                    </div>
+                    
+                    <!-- Filter Controls -->
+                    <div class="filter-controls">
+                        <select id="cell-type-filter" class="filter-select">
+                            <option value="all">All Cell Types</option>
+                        </select>
+
+                        <select id="category-filter" class="filter-select">
+                            <option value="all">All Categories</option>
+                        </select>
+                        
+                        <select id="entries-per-page" class="filter-select">
+                            <option value="10">Show 10 entries</option>
+                            <option value="25">Show 25 entries</option>
+                            <option value="50">Show 50 entries</option>
+                            <option value="100">Show 100 entries</option>
+                        </select>
+                        
+                        <input type="text" id="table-search" placeholder="Search..." class="table-search-input">
+                    </div>
+                </div>
+
+                <!-- Cell Type Table -->
+                <div class="table-container">
+                    <table class="celltype-table" id="celltype-table">
+                        <thead>
+                            <tr>
+                                <th>Cell Type</th>
+                                <th>Aliases</th>
+                                <th>Major Type Category</th>
+                                <th>Markers</th>
+                            </tr>
+                        </thead>
+                        <tbody id="celltype-table-body">
+                            <!-- Table rows will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination-container">
+                    <div class="pagination-info">
+                        <span id="pagination-info">Showing 1 to 10 of 0 entries</span>
+                    </div>
+                    <div class="pagination-controls">
+                        <button id="prev-page" class="pagination-btn" disabled>Previous</button>
+                        <div class="page-numbers" id="page-numbers"></div>
+                        <button id="next-page" class="pagination-btn">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hierarchy Section -->
+            <div id="hierarchy-section" class="section-content hidden">
+                <div class="hierarchy-controls">
+                    <div class="controls-header">
+                        <h3>Cell Type Hierarchy Visualization</h3>
+                        <div class="view-controls">
+                            <button class="view-btn active" onclick="setHierarchyView('tree')">Tree View</button>
+                            <button class="view-btn" onclick="setHierarchyView('sunburst')">Sunburst</button>
+                            <button class="view-btn" onclick="setHierarchyView('network')">Network</button>
+                        </div>
+                    </div>
+                    
+                    <div class="hierarchy-filters">
+                        <select id="focus-type" class="filter-select">
+                            <option value="all">All Cell Types</option>
+                            <option value="major">Major Categories Only</option>
+                        </select>
+                        
+                        <input type="text" id="hierarchy-search" placeholder="Search in hierarchy..." class="table-search-input">
+                    </div>
+                </div>
+
+                <!-- Visualization Container -->
+                <div class="visualization-container">
+                    <div id="hierarchy-viz" class="hierarchy-viz">
+                        <!-- D3.js visualization will be rendered here -->
+                    </div>
+                    
+                    <!-- Legend and Info Panel -->
+                    <div class="hierarchy-info">
+                        <div class="legend-panel">
+                            <h4>Legend</h4>
+                            <div id="legend-content">
+                                <!-- Legend will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        
+                        <div class="selected-info">
+                            <h4>Selected Cell Type</h4>
+                            <div id="selected-details">
+                                <p>Click on a cell type to view details</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-simple">
+                <p>&copy; 2024 Regulatory Genome Atlas. All rights reserved.</p>
+                <p>Contact: <a href="mailto:contact@regulatory-atlas.org">contact@regulatory-atlas.org</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cell-type.js"></script>
+</body>
+</html> 
